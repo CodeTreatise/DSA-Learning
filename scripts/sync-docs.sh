@@ -128,12 +128,55 @@ fix_internal_links() {
         "$file"
 }
 
+# Fix Mermaid diagram syntax for Docusaurus
+fix_mermaid_syntax() {
+    local file="$1"
+    
+    # Replace × with * (multiplication symbol)
+    sed -i 's/×/*/g' "$file"
+    
+    # Quote O() notation in Mermaid node labels: [text O(...)] -> ["text O(...)"]
+    # Using Perl for better regex support
+    perl -i -pe 's/\[([^\[\]"]*O\([^)]+\)[^\[\]"]*)\]/["$1"]/g' "$file" 2>/dev/null || true
+    
+    # Quote O() in Mermaid edge labels: |O(...) xxx| -> |"O(...) xxx"|
+    perl -i -pe 's/\|([^|"]*O\([^)]+\)[^|"]*)\|/|"$1"|/g' "$file" 2>/dev/null || true
+}
+
+# Add frontmatter to topic index files
+add_frontmatter() {
+    local file="$1"
+    local dirname=$(dirname "$file")
+    local basename=$(basename "$file" .md)
+    
+    # Only add to topic index files (XX-TopicName/XX-TopicName.md)
+    if [[ "$basename" =~ ^[0-9]{2}- ]] && [[ "$(basename "$dirname")" == "$basename" ]]; then
+        # Check if frontmatter already exists
+        if ! head -1 "$file" | grep -q "^---"; then
+            local slug="/$basename"
+            local tmpfile=$(mktemp)
+            cat > "$tmpfile" << EOF
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: $slug
+---
+
+EOF
+            cat "$file" >> "$tmpfile"
+            mv "$tmpfile" "$file"
+        fi
+    fi
+}
+
 # Process all markdown files
 find "$DOCS_DIR" -name "*.md" -type f | while read -r file; do
     fix_links "$file"
     remove_broken_topic_links "$file"
     fix_cross_topic_links "$file"
     fix_internal_links "$file"
+    fix_mermaid_syntax "$file"
+    add_frontmatter "$file"
 done
 echo "  ✓ Fixed all links in markdown files"
 
