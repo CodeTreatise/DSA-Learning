@@ -7,7 +7,7 @@ slug: /
 
 > Master Data Structures & Algorithms for Technical Interviews
 
-<a class="button button--primary button--lg" href="/dsa-mastery/01-Arrays-Strings">🚀 Start Learning - Arrays & Strings</a>
+<a class="button button--primary button--lg" href="/DSA-Learning/01-Arrays-Strings">🚀 Start Learning - Arrays & Strings</a>
 
 ---
 
@@ -32,14 +32,14 @@ flowchart LR
 
 | # | Topic | Status |
 |---|-------|--------|
-| 01 | [Arrays & Strings](/dsa-mastery/01-Arrays-Strings) | ✅ Expanded |
-| 02 | [Recursion & Backtracking](/dsa-mastery/02-Recursion-Backtracking) | ✅ Expanded |
-| 03 | [Sorting & Searching](/dsa-mastery/03-Sorting-Searching) | ✅ Expanded |
-| 04 | [Linked Lists](/dsa-mastery/04-Linked-Lists) | ✅ Expanded |
-| 05 | [Stacks & Queues](/dsa-mastery/05-Stacks-Queues) | ✅ Expanded |
-| 06 | [Trees](/dsa-mastery/06-Trees) | ✅ Expanded |
-| 07 | [Binary Search Trees](/dsa-mastery/07-Binary-Search-Trees) | ✅ Expanded |
-| 08 | [Heaps & Priority Queues](/dsa-mastery/08-Heaps-Priority-Queues) | ✅ Expanded |
+| 01 | [Arrays & Strings](/DSA-Learning/01-Arrays-Strings) | ✅ Expanded |
+| 02 | [Recursion & Backtracking](/DSA-Learning/02-Recursion-Backtracking) | ✅ Expanded |
+| 03 | [Sorting & Searching](/DSA-Learning/03-Sorting-Searching) | ✅ Expanded |
+| 04 | [Linked Lists](/DSA-Learning/04-Linked-Lists) | ✅ Expanded |
+| 05 | [Stacks & Queues](/DSA-Learning/05-Stacks-Queues) | ✅ Expanded |
+| 06 | [Trees](/DSA-Learning/06-Trees) | ✅ Expanded |
+| 07 | [Binary Search Trees](/DSA-Learning/07-Binary-Search-Trees) | ✅ Expanded |
+| 08 | [Heaps & Priority Queues](/DSA-Learning/08-Heaps-Priority-Queues) | ✅ Expanded |
 
 ## 🎯 Features
 

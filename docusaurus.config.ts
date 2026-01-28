@@ -11,11 +11,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-username.github.io',
-  baseUrl: '/dsa-mastery/',
+  url: 'https://codetreatise.github.io',
+  baseUrl: '/DSA-Learning/',
 
-  organizationName: 'your-username',
-  projectName: 'dsa-mastery',
+  organizationName: 'CodeTreatise',
+  projectName: 'DSA-Learning',
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
