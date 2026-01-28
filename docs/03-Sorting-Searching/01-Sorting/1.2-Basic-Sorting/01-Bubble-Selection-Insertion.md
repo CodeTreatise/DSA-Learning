@@ -12,9 +12,9 @@ These are the simplest sorting algorithms to understand and implement. While not
 
 | Algorithm | Key Operation | Best Case | When Useful |
 |-----------|---------------|-----------|-------------|
-| **Bubble Sort** | Swap adjacent | O(n) | Nearly sorted, educational |
-| **Selection Sort** | Find minimum | O(n²) | Minimum writes needed |
-| **Insertion Sort** | Insert in place | O(n) | Small/nearly sorted |
+| **Bubble Sort** | Swap adjacent |" O(n) "| Nearly sorted, educational |
+| **Selection Sort** | Find minimum |" O(n²) "| Minimum writes needed |
+| **Insertion Sort** | Insert in place |" O(n) "| Small/nearly sorted |
 
 ---
 
@@ -120,9 +120,9 @@ function bubbleSort(arr) {
 
 | Case | Time | Why |
 |------|------|-----|
-| Best | O(n) | Already sorted, one pass with no swaps |
-| Average | O(n²) | ~n²/2 comparisons and swaps |
-| Worst | O(n²) | Reverse sorted, every element swaps |
+| Best |" O(n) "| Already sorted, one pass with no swaps |
+| Average |" O(n²) "| ~n²/2 comparisons and swaps |
+| Worst |" O(n²) "| Reverse sorted, every element swaps |
 
 ---
 
@@ -207,9 +207,9 @@ function selectionSort(arr) {
 
 | Case | Time | Why |
 |------|------|-----|
-| Best | O(n²) | Still must scan to find minimum |
-| Average | O(n²) | n + (n-1) + ... + 1 = n(n-1)/2 |
-| Worst | O(n²) | Same as average |
+| Best |" O(n²) "| Still must scan to find minimum |
+| Average |" O(n²) "| n + (n-1) + ... + 1 = n(n-1)/2 |
+| Worst |" O(n²) "| Same as average |
 
 **Advantage:** Only O(n) swaps (good when writes are expensive)
 
@@ -326,9 +326,9 @@ def binary_insertion_sort(arr: list[int]) -> list[int]:
 
 | Case | Time | Why |
 |------|------|-----|
-| Best | O(n) | Already sorted, no shifts needed |
-| Average | O(n²) | ~n²/4 comparisons and shifts |
-| Worst | O(n²) | Reverse sorted, maximum shifts |
+| Best |" O(n) "| Already sorted, no shifts needed |
+| Average |" O(n²) "| ~n²/4 comparisons and shifts |
+| Worst |" O(n²) "| Reverse sorted, maximum shifts |
 
 ---
 
@@ -357,11 +357,11 @@ O(n²) Sorting Algorithms
 
 | Aspect | Bubble | Selection | Insertion |
 |--------|--------|-----------|-----------|
-| **Time (Best)** | O(n) | O(n²) | O(n) |
-| **Time (Worst)** | O(n²) | O(n²) | O(n²) |
-| **Space** | O(1) | O(1) | O(1) |
+| **Time (Best)** |" O(n) "|" O(n²) "|" O(n) "|
+| **Time (Worst)** |" O(n²) "|" O(n²) "|" O(n²) "|
+| **Space** |" O(1) "|" O(1) "|" O(1) "|
 | **Stable** | ✅ Yes | ❌ No | ✅ Yes |
-| **Swaps** | O(n²) | O(n) | O(n²) |
+| **Swaps** |" O(n²) "|" O(n) "|" O(n²) "|
 | **Nearly Sorted** | Fast | Same | ⭐ Fast |
 | **Use Case** | Educational | Min writes | Small/sorted |
 

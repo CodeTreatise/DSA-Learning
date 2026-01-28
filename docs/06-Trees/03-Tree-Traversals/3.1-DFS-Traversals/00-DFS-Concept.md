@@ -305,9 +305,9 @@ def collect_paths(root: TreeNode) -> list[list[int]]:
 
 | Aspect | Complexity | Notes |
 |--------|------------|-------|
-| Time | O(n) | Visit each node once |
-| Space (balanced) | O(log n) | Recursion stack depth |
-| Space (skewed) | O(n) | Worst case: linked list tree |
+| Time |" O(n) "| Visit each node once |
+| Space (balanced) |" O(log n) "| Recursion stack depth |
+| Space (skewed) |" O(n) "| Worst case: linked list tree |
 
 **Why O(n) time:**
 - Each node is visited exactly once

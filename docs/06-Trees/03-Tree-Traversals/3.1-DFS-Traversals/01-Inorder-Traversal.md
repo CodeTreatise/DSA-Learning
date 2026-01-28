@@ -306,9 +306,9 @@ def inorder_morris(root: Optional[TreeNode]) -> List[int]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Recursive | O(n) | O(h) | h = height, O(log n) balanced, O(n) skewed |
-| Iterative | O(n) | O(h) | Same as recursive |
-| Morris | O(n) | O(1) | No extra space, modifies tree temporarily |
+| Recursive |" O(n) "|" O(h) "|" h = height, O(log n) balanced, O(n) skewed "|
+| Iterative |" O(n) "|" O(h) "| Same as recursive |
+| Morris |" O(n) "|" O(1) "| No extra space, modifies tree temporarily |
 
 **Why Morris is O(n) time:**
 - Each edge traversed at most 3 times

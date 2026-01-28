@@ -285,8 +285,8 @@ def next_greater_brute_force(nums1: list[int], nums2: list[int]) -> list[int]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Brute Force | O(n * m) | O(1) | Nested loops |
-| Monotonic Stack | O(n + m) | O(m) | Each element pushed/popped once |
+| Brute Force |" O(n * m) "|" O(1) "| Nested loops |
+| Monotonic Stack |" O(n + m) "|" O(m) "| Each element pushed/popped once |
 
 **Why O(n + m)?**
 - O(m) to process nums2 with monotonic stack

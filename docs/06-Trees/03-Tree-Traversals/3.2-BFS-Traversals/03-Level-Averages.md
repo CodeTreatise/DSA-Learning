@@ -278,8 +278,8 @@ def largest_values_each_row(root: Optional[TreeNode]) -> List[int]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| BFS | O(n) | O(w) | w = max width |
-| DFS | O(n) | O(h) | h = height |
+| BFS |" O(n) "|" O(w) "| w = max width |
+| DFS |" O(n) "|" O(h) "| h = height |
 
 ---
 

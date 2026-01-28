@@ -390,10 +390,10 @@ function searchRange(nums, target) {
 
 | Operation | Time | Space | Notes |
 |-----------|------|-------|-------|
-| Find first | O(log n) | O(1) | Single binary search |
-| Find last | O(log n) | O(1) | Single binary search |
-| Find range | O(log n) | O(1) | Two binary searches |
-| Count occurrences | O(log n) | O(1) | upper - lower |
+| Find first |" O(log n) "|" O(1) "| Single binary search |
+| Find last |" O(log n) "|" O(1) "| Single binary search |
+| Find range |" O(log n) "|" O(1) "| Two binary searches |
+| Count occurrences |" O(log n) "|" O(1) "| upper - lower |
 
 ---
 

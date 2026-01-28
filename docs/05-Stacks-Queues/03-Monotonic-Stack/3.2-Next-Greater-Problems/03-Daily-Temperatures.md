@@ -299,8 +299,8 @@ function dailyTemperaturesReverse(temperatures) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Monotonic Stack | O(n) | O(n) | Each element pushed/popped once |
-| Right-to-Left Jump | O(n) | O(1) | Uses previous answers to jump |
+| Monotonic Stack |" O(n) "|" O(n) "| Each element pushed/popped once |
+| Right-to-Left Jump |" O(n) "|" O(1) "| Uses previous answers to jump |
 
 **Stack Approach Analysis:**
 - Each day is pushed exactly once: O(n)

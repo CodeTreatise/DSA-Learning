@@ -71,9 +71,9 @@ For water to be trapped at position `i`:
 
 | Approach | Time | Space | Best When |
 |----------|------|-------|-----------|
-| Two Pointers | O(n) | O(1) | Want optimal space |
-| DP | O(n) | O(n) | Easy to understand |
-| Monotonic Stack | O(n) | O(n) | Consistent with other stack problems |
+| Two Pointers |" O(n) "|" O(1) "| Want optimal space |
+| DP |" O(n) "|" O(n) "| Easy to understand |
+| Monotonic Stack |" O(n) "|" O(n) "| Consistent with other stack problems |
 
 ---
 
@@ -374,10 +374,10 @@ function trapStack(height) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Brute Force | O(n²) | O(1) | Scan left/right for each position |
-| DP | O(n) | O(n) | Two auxiliary arrays |
-| Two Pointers | O(n) | O(1) | Optimal space |
-| Monotonic Stack | O(n) | O(n) | Calculates layer by layer |
+| Brute Force |" O(n²) "|" O(1) "| Scan left/right for each position |
+| DP |" O(n) "|" O(n) "| Two auxiliary arrays |
+| Two Pointers |" O(n) "|" O(1) "| Optimal space |
+| Monotonic Stack |" O(n) "|" O(n) "| Calculates layer by layer |
 
 **Which to use?**
 - **Interview:** Two Pointers (optimal) or DP (easier to explain)

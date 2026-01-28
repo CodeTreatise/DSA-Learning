@@ -77,10 +77,10 @@ flowchart TD
 
 | Situation | Why | Use Instead |
 |-----------|-----|-------------|
-| Single query only | O(n) preprocessing not worth it | Direct sum O(n) |
+| Single query only |" O(n) preprocessing not worth it "|" Direct sum O(n) "|
 | Array gets modified | Prefix sum becomes invalid | Segment Tree / Fenwick Tree |
 | Need min/max not sum | Prefix sum only works for sum | Sparse Table / Segment Tree |
-| Memory constrained | Needs O(n) extra space | Sliding window if applicable |
+| Memory constrained |" Needs O(n) extra space "| Sliding window if applicable |
 | Non-commutative operation | Can't "subtract" to get range | Different approach |
 
 ---
@@ -425,10 +425,10 @@ print(result)  # [0, 2, 5, 5, 3]
 
 | Operation | Time | Space | Notes |
 |-----------|------|-------|-------|
-| Build | O(n) | O(n) | Single pass |
-| Query | O(1) | O(1) | Just subtraction |
-| m queries (brute) | O(m*n) | O(1) | Without prefix sum |
-| m queries (prefix) | O(n + m) | O(n) | With prefix sum |
+| Build |" O(n) "|" O(n) "| Single pass |
+| Query |" O(1) "|" O(1) "| Just subtraction |
+| m queries (brute) |" O(m*n) "|" O(1) "| Without prefix sum |
+| m queries (prefix) |" O(n + m) "|" O(n) "| With prefix sum |
 
 **Break-even point:** Prefix sum is worth it when queries > 1.
 
@@ -436,17 +436,17 @@ print(result)  # [0, 2, 5, 5, 3]
 
 | Operation | Time | Space |
 |-----------|------|-------|
-| Build | O(m*n) | O(m*n) |
-| Query | O(1) | O(1) |
+| Build |" O(m*n) "|" O(m*n) "|
+| Query |" O(1) "|" O(1) "|
 
 ### Difference Array
 
 | Operation | Time | Notes |
 |-----------|------|-------|
-| Each update | O(1) | Just two operations |
-| Final build | O(n) | Once at the end |
-| k updates (brute) | O(k*n) | Without difference array |
-| k updates (diff) | O(k + n) | With difference array |
+| Each update |" O(1) "| Just two operations |
+| Final build |" O(n) "| Once at the end |
+| k updates (brute) |" O(k*n) "| Without difference array |
+| k updates (diff) |" O(k + n) "| With difference array |
 
 ---
 
@@ -594,7 +594,7 @@ prefix[i][j] = prefix[i-1][j] + prefix[i][j-1] + matrix[i-1][j-1] - prefix[i-1][
 | Question | Response |
 |----------|----------|
 | "What if the array is updated?" | "Prefix sum needs rebuild. For frequent updates, I'd use a Fenwick Tree or Segment Tree." |
-| "Why O(n) space?" | "We store one prefix value per element. For memory constraints, we could compute on-the-fly if queries are sequential." |
+|" "Why O(n) space?" "| "We store one prefix value per element. For memory constraints, we could compute on-the-fly if queries are sequential." |
 | "What about 2D?" | "Same concept extends to 2D using inclusion-exclusion principle." |
 
 </details>

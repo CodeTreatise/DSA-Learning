@@ -394,9 +394,9 @@ function permuteUnique(nums) {
 
 | Variant | Time | Space | Notes |
 |---------|------|-------|-------|
-| Basic Permutations | O(n * n!) | O(n) | n! permutations, O(n) to copy each |
-| With Duplicates | O(n * n!) | O(n) | Worst case same, better in practice |
-| Swap Approach | O(n * n!) | O(n) | Slightly less overhead |
+| Basic Permutations |" O(n * n!) "|" O(n) "|" n! permutations, O(n) to copy each "|
+| With Duplicates |" O(n * n!) "|" O(n) "| Worst case same, better in practice |
+| Swap Approach |" O(n * n!) "|" O(n) "| Slightly less overhead |
 
 **Why O(n * n!)?**
 - There are n! permutations

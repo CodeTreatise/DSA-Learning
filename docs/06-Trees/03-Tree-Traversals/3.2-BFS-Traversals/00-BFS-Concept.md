@@ -270,8 +270,8 @@ def bfs_level_average(root: Optional[TreeNode]) -> List[float]:
 
 | Aspect | Value | Notes |
 |--------|-------|-------|
-| Time | O(n) | Visit each node once |
-| Space | O(w) | w = max width of tree |
+| Time |" O(n) "| Visit each node once |
+| Space |" O(w) "| w = max width of tree |
 
 **Space Analysis:**
 - Best case (skewed tree): O(1) - only one node per level

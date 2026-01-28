@@ -300,8 +300,8 @@ def left_side_view(root: Optional[TreeNode]) -> List[int]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| BFS | O(n) | O(w) | w = max width |
-| DFS | O(n) | O(h) | h = height |
+| BFS |" O(n) "|" O(w) "| w = max width |
+| DFS |" O(n) "|" O(h) "| h = height |
 
 **When to prefer each:**
 - BFS: More intuitive, better for wide trees

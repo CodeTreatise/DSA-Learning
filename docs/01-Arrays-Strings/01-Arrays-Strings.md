@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /01-Arrays-Strings
+---
+
 # 01 - Arrays & Strings
 
 > The most fundamental data structures
@@ -230,7 +236,7 @@ flowchart LR
 | Pairs/triplets | Two pointers, Hash map |
 | Contiguous elements | Sliding window |
 | Maximum/minimum subarray | Kadane's algorithm |
-| O(1) lookup needed | Hash map |
+|" O(1) lookup needed "| Hash map |
 
 ---
 

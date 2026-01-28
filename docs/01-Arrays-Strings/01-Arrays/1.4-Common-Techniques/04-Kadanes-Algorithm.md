@@ -417,10 +417,10 @@ print(max_subarray_circular([-3, -2, -1]))        # -1 (all negative)
 
 | Variant | Time | Space | Notes |
 |---------|------|-------|-------|
-| Basic Kadane's | O(n) | O(1) | Single pass |
-| With indices | O(n) | O(1) | Track extra variables |
-| Max product | O(n) | O(1) | Track min and max |
-| Circular | O(n) | O(1) | Two Kadane's in one pass |
+| Basic Kadane's |" O(n) "|" O(1) "| Single pass |
+| With indices |" O(n) "|" O(1) "| Track extra variables |
+| Max product |" O(n) "|" O(1) "| Track min and max |
+| Circular |" O(n) "|" O(1) "| Two Kadane's in one pass |
 
 **Why O(n) Time:**
 - Single pass through array
@@ -436,10 +436,10 @@ print(max_subarray_circular([-3, -2, -1]))        # -1 (all negative)
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Brute Force | O(n³) | O(1) | Check all subarrays |
-| Prefix Sum | O(n²) | O(n) | For each i, find min prefix before it |
-| Divide & Conquer | O(n log n) | O(log n) | Split and combine |
-| **Kadane's** | **O(n)** | **O(1)** | Optimal! |
+| Brute Force |" O(n³) "|" O(1) "| Check all subarrays |
+| Prefix Sum |" O(n²) "|" O(n) "| For each i, find min prefix before it |
+| Divide & Conquer |" O(n log n) "|" O(log n) "| Split and combine |
+| **Kadane's** |" **O(n)** "|" **O(1)** "| Optimal! |
 
 ---
 
@@ -565,7 +565,7 @@ if max_ending_here > max_so_far:
 | **Day 1** | Solve Maximum Subarray without looking |
 | **Day 3** | Implement with index tracking |
 | **Day 7** | Solve Maximum Product Subarray |
-| **Day 14** | Explain why O(n) and the "extend vs reset" insight |
+| **Day 14** |" Explain why O(n) and the "extend vs reset" insight "|
 | **Day 30** | Solve circular variant cold |
 
 **Pattern mastery checklist:**

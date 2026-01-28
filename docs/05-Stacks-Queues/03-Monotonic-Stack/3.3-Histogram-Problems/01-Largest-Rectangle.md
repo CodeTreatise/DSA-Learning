@@ -371,9 +371,9 @@ function largestRectangleAreaTwoPass(heights) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Brute Force | O(n²) | O(1) | Try all pairs |
-| Two Pass | O(n) | O(n) | Three iterations |
-| Single Pass | O(n) | O(n) | One iteration |
+| Brute Force |" O(n²) "|" O(1) "| Try all pairs |
+| Two Pass |" O(n) "|" O(n) "| Three iterations |
+| Single Pass |" O(n) "|" O(n) "| One iteration |
 
 **Why O(n)?**
 - Each bar is pushed onto stack once

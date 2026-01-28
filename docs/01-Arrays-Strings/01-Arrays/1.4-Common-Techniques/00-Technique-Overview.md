@@ -53,24 +53,24 @@ flowchart TD
 
 | Technique | Time | Space | Best For | Requires |
 |-----------|------|-------|----------|----------|
-| **Two Pointers** | O(n) | O(1) | Pairs in sorted arrays, palindromes, partitioning | Sorted data or sortable |
-| **Sliding Window (Fixed)** | O(n) | O(1) or O(k) | Max/min sum of k elements, fixed substring | Contiguous, known size |
-| **Sliding Window (Variable)** | O(n) | O(k) | Longest/shortest subarray with condition | Contiguous, shrinkable condition |
-| **Prefix Sum** | O(n) build, O(1) query | O(n) | Multiple range sum queries | Static array |
-| **Kadane's Algorithm** | O(n) | O(1) | Maximum subarray sum with negatives | Contiguous, can reset |
-| **Hash Map** | O(n) | O(n) | O(1) lookup, frequency, complement finding | Can afford O(n) space |
+| **Two Pointers** |" O(n) "|" O(1) "| Pairs in sorted arrays, palindromes, partitioning | Sorted data or sortable |
+| **Sliding Window (Fixed)** |" O(n) "|" O(1) or O(k) "| Max/min sum of k elements, fixed substring | Contiguous, known size |
+| **Sliding Window (Variable)** |" O(n) "|" O(k) "| Longest/shortest subarray with condition | Contiguous, shrinkable condition |
+| **Prefix Sum** |" O(n) build, O(1) query "|" O(n) "| Multiple range sum queries | Static array |
+| **Kadane's Algorithm** |" O(n) "|" O(1) "| Maximum subarray sum with negatives | Contiguous, can reset |
+| **Hash Map** |" O(n) "|" O(n) "|" O(1) lookup, frequency, complement finding "|" Can afford O(n) space "|
 
 ### When to Choose What
 
 | Problem Signal | Technique | Why |
 |----------------|-----------|-----|
-| "Sorted array" + "find pair" | Two Pointers | O(1) space, exploit sorted order |
+| "Sorted array" + "find pair" | Two Pointers |" O(1) space, exploit sorted order "|
 | "Unsorted" + "find pair" + "return indices" | Hash Map | Can't sort (lose indices) |
 | "Subarray of size k" | Fixed Sliding Window | Known window size |
 | "Longest/shortest subarray with..." | Variable Sliding Window | Dynamic window size |
-| "Sum between indices i and j" | Prefix Sum | O(1) per query |
+| "Sum between indices i and j" | Prefix Sum |" O(1) per query "|
 | "Maximum sum subarray" | Kadane's | Handles negatives elegantly |
-| "Count frequency" / "seen before" | Hash Map/Set | O(1) lookup |
+| "Count frequency" / "seen before" | Hash Map/Set |" O(1) lookup "|
 
 ---
 
@@ -461,10 +461,10 @@ Ask yourself these questions in order:
 
 | Want | Use | Trade |
 |------|-----|-------|
-| O(1) space | Two Pointers | Need sorted data |
-| O(1) space | Kadane's | Only for max subarray |
-| O(n) time unsorted | Hash Map | O(n) space |
-| O(1) queries | Prefix Sum | O(n) preprocessing |
+|" O(1) space "| Two Pointers | Need sorted data |
+|" O(1) space "| Kadane's | Only for max subarray |
+|" O(n) time unsorted "| Hash Map |" O(n) space "|
+|" O(1) queries "| Prefix Sum |" O(n) preprocessing "|
 
 ---
 

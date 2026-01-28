@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /05-Stacks-Queues
+---
+
 # 05 - Stacks & Queues
 
 > Linear data structures with restricted access patterns

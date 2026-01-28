@@ -50,7 +50,7 @@
 | Situation | Use Instead | Why |
 |-----------|-------------|-----|
 | Large n (n > 1000) | Iteration | Stack overflow |
-| Fibonacci without memo | DP or iteration | O(2ⁿ) → O(n) |
+| Fibonacci without memo | DP or iteration |" O(2ⁿ) → O(n) "|
 | Performance critical | Iteration | Less overhead |
 
 ---
@@ -325,18 +325,18 @@ function fibonacciIterative(n) {
 
 | Version | Time | Space | Notes |
 |---------|------|-------|-------|
-| Recursive | O(n) | O(n) | Stack depth n |
-| Iterative | O(n) | O(1) | No stack |
-| Tail recursive | O(n) | O(1)* | *If optimized |
+| Recursive |" O(n) "|" O(n) "| Stack depth n |
+| Iterative |" O(n) "|" O(1) "| No stack |
+| Tail recursive |" O(n) "|" O(1)* "| *If optimized |
 
 ### Fibonacci
 
 | Version | Time | Space | Notes |
 |---------|------|-------|-------|
-| Naive | O(2ⁿ) | O(n) | Never use! |
-| Memoized | O(n) | O(n) | Cache stores n values |
-| Iterative | O(n) | O(1) | Best overall |
-| Matrix exp | O(log n) | O(1) | For very large n |
+| Naive |" O(2ⁿ) "|" O(n) "| Never use! |
+| Memoized |" O(n) "|" O(n) "| Cache stores n values |
+| Iterative |" O(n) "|" O(1) "| Best overall |
+| Matrix exp |" O(log n) "|" O(1) "| For very large n |
 
 **Why is naive Fibonacci O(2ⁿ)?**
 ```

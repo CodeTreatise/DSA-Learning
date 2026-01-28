@@ -311,8 +311,8 @@ def is_happy_hardcoded(n: int) -> bool:
 
 | Case | Time | Space | Notes |
 |------|------|-------|-------|
-| Happy number | O(log n) | O(1) | Quickly reaches 1 |
-| Not happy | O(log n) | O(1) | Cycle detected |
+| Happy number |" O(log n) "|" O(1) "| Quickly reaches 1 |
+| Not happy |" O(log n) "|" O(1) "| Cycle detected |
 
 **Why O(log n) Time:**
 - Number of digits = O(log n)
@@ -328,7 +328,7 @@ def is_happy_hardcoded(n: int) -> bool:
 
 | Case | Time | Space | Notes |
 |------|------|-------|-------|
-| All cases | O(log n) | O(log n) | Stores visited numbers |
+| All cases |" O(log n) "|" O(log n) "| Stores visited numbers |
 
 ---
 

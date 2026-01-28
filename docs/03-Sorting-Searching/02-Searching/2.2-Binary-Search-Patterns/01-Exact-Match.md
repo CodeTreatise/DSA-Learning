@@ -55,7 +55,7 @@ Array must be sorted. Each comparison eliminates half the remaining elements.
 | Situation | Use Instead | Why |
 |-----------|-------------|-----|
 | Unsorted array | Linear search or sort first | Binary search requires sorted |
-| Linked list | Linear search | No O(1) random access |
+| Linked list | Linear search |" No O(1) random access "|
 | Frequent insertions | BST or balanced tree | Maintain sorted order |
 | Need closest match | Boundary search | Exact match may not exist |
 | Finding ALL occurrences | Boundary search | Find first and last |
@@ -265,9 +265,9 @@ print(binary_search_desc([9, 7, 5, 3, 1], 5))  # 2
 
 | Case | Time | Space (Iterative) | Space (Recursive) |
 |------|------|-------------------|-------------------|
-| Best | O(1) | O(1) | O(1) |
-| Average | O(log n) | O(1) | O(log n) |
-| Worst | O(log n) | O(1) | O(log n) |
+| Best |" O(1) "|" O(1) "|" O(1) "|
+| Average |" O(log n) "|" O(1) "|" O(log n) "|
+| Worst |" O(log n) "|" O(1) "|" O(log n) "|
 
 **Why O(log n)?**
 - Each comparison eliminates half of remaining elements

@@ -58,8 +58,8 @@ Each requires a different approach!
 
 | Problem Type | Approach | Time Complexity |
 |--------------|----------|-----------------|
-| Fully sorted (LC 74) | Treat as 1D array | O(log(m·n)) |
-| Row-col sorted (LC 240) | Staircase search | O(m + n) |
+| Fully sorted (LC 74) | Treat as 1D array |" O(log(m·n)) "|
+| Row-col sorted (LC 240) | Staircase search |" O(m + n) "|
 
 ---
 
@@ -313,8 +313,8 @@ def search_matrix_bottom_left(matrix: list[list[int]], target: int) -> bool:
 
 | Problem | Time | Space | Why |
 |---------|------|-------|-----|
-| Fully Sorted (LC 74) | O(log(m·n)) | O(1) | Single binary search |
-| Row-Col Sorted (LC 240) | O(m + n) | O(1) | At most m + n moves |
+| Fully Sorted (LC 74) |" O(log(m·n)) "|" O(1) "| Single binary search |
+| Row-Col Sorted (LC 240) |" O(m + n) "|" O(1) "| At most m + n moves |
 
 **Why O(m + n) for LC 240?**
 - Each step either increments row OR decrements column
@@ -328,9 +328,9 @@ def search_matrix_bottom_left(matrix: list[list[int]], target: int) -> bool:
 
 | Variation | Description | Approach |
 |-----------|-------------|----------|
-| Fully sorted matrix | First of row > last of prev | Binary search O(log mn) |
-| Row-col sorted | Each row & col sorted | Staircase O(m+n) |
-| Count elements ≤ x | In row-col sorted | Staircase O(m+n) |
+| Fully sorted matrix | First of row > last of prev |" Binary search O(log mn) "|
+| Row-col sorted | Each row & col sorted |" Staircase O(m+n) "|
+| Count elements ≤ x | In row-col sorted |" Staircase O(m+n) "|
 | Kth smallest | Find kth smallest | Binary search + count |
 | Matrix median | Find median | Binary search on answer |
 

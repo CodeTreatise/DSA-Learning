@@ -311,9 +311,9 @@ def reverse_list_stack(head: ListNode) -> ListNode:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Iterative | O(n) | O(1) | **Optimal** |
-| Recursive | O(n) | O(n) | Call stack overhead |
-| Stack | O(n) | O(n) | Extra data structure |
+| Iterative |" O(n) "|" O(1) "| **Optimal** |
+| Recursive |" O(n) "|" O(n) "| Call stack overhead |
+| Stack |" O(n) "|" O(n) "| Extra data structure |
 
 **Detailed Analysis (Iterative):**
 - **Time O(n):** Each node is visited exactly once

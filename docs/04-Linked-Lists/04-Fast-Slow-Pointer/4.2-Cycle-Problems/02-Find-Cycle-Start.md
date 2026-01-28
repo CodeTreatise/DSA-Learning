@@ -51,7 +51,7 @@ When you need to find the START of a cycle → Floyd's two-phase algorithm
 | Scenario | Why Not | Use Instead |
 |----------|---------|-------------|
 | Only need to detect cycle | Overkill - phase 1 is enough | Simple fast/slow |
-| Can use O(n) space | HashSet is simpler | HashSet approach |
+|" Can use O(n) space "| HashSet is simpler | HashSet approach |
 | Tree/graph structures | Different traversal patterns | DFS with parent tracking |
 | Need all cycle nodes | Only finds entry | Traverse cycle after finding start |
 
@@ -362,9 +362,9 @@ def get_cycle_length(head: ListNode) -> int:
 
 | Phase | Time | Space | Notes |
 |-------|------|-------|-------|
-| Phase 1 | O(n) | O(1) | Detect meeting point |
-| Phase 2 | O(n) | O(1) | Find cycle start |
-| **Total** | **O(n)** | **O(1)** | Two sequential passes |
+| Phase 1 |" O(n) "|" O(1) "| Detect meeting point |
+| Phase 2 |" O(n) "|" O(1) "| Find cycle start |
+| **Total** |" **O(n)** "|" **O(1)** "| Two sequential passes |
 
 **Detailed Analysis:**
 - Phase 1: At most n + k steps (k = cycle length)
@@ -375,8 +375,8 @@ def get_cycle_length(head: ListNode) -> int:
 
 | Metric | Complexity | Notes |
 |--------|------------|-------|
-| Time | O(n) | Single pass |
-| Space | O(n) | Stores all visited nodes |
+| Time |" O(n) "| Single pass |
+| Space |" O(n) "| Stores all visited nodes |
 
 **Trade-off:** HashSet is simpler to implement but uses O(n) extra space.
 

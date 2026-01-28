@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /06-Trees
+---
+
 # 06 - Trees
 
 > Hierarchical data structure for organized data representation
@@ -291,7 +297,7 @@ flowchart LR
 |----------------------|-------------|
 | Path problems | Level problems |
 | Most tree problems | Shortest path |
-| Space: O(h) | Space: O(w) |
+|" Space: O(h) "|" Space: O(w) "|
 | Go deep first | Go wide first |
 
 ---

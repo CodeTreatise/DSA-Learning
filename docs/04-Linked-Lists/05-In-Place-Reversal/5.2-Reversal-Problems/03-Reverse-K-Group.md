@@ -404,8 +404,8 @@ function reverseKGroupRecursive(head, k) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Iterative | O(n) | O(1) | Optimal |
-| Recursive | O(n) | O(n/k) | Call stack |
+| Iterative |" O(n) "|" O(1) "| Optimal |
+| Recursive |" O(n) "|" O(n/k) "| Call stack |
 
 **Detailed Analysis:**
 - Each node is visited at most twice (once for check, once for reverse)
@@ -569,7 +569,7 @@ while has_k_nodes(group_prev.next, k):
 |---------|-----------|-------|
 | Amazon | ⭐⭐⭐⭐⭐ | VERY common hard question |
 | Meta | ⭐⭐⭐⭐ | Tests deep LL understanding |
-| Google | ⭐⭐⭐⭐ | May ask for proof of O(1) space |
+| Google | ⭐⭐⭐⭐ |" May ask for proof of O(1) space "|
 | Microsoft | ⭐⭐⭐⭐ | Standard hard question |
 
 ---

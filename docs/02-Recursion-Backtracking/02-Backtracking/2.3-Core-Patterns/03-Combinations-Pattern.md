@@ -389,10 +389,10 @@ function combinationSum2(candidates, target) {
 
 | Problem | Time | Space | Notes |
 |---------|------|-------|-------|
-| C(n, k) | O(k * C(n,k)) | O(k) | C(n,k) combinations |
-| Combination Sum I | O(n^(t/m)) | O(t/m) | t=target, m=min candidate |
-| Combination Sum II | O(2^n) | O(n) | Similar to subsets |
-| Combination Sum III | O(C(9,k)) | O(k) | At most C(9,4) = 126 |
+| C(n, k) |" O(k * C(n,k)) "|" O(k) "| C(n,k) combinations |
+| Combination Sum I |" O(n^(t/m)) "|" O(t/m) "| t=target, m=min candidate |
+| Combination Sum II |" O(2^n) "|" O(n) "| Similar to subsets |
+| Combination Sum III |" O(C(9,k)) "|" O(k) "| At most C(9,4) = 126 |
 
 **Why these complexities?**
 

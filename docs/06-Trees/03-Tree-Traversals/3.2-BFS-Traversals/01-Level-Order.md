@@ -280,8 +280,8 @@ def level_order_bottom(root: Optional[TreeNode]) -> List[List[int]]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| BFS | O(n) | O(w) | w = max width |
-| DFS | O(n) | O(h) | h = height |
+| BFS |" O(n) "|" O(w) "| w = max width |
+| DFS |" O(n) "|" O(h) "| h = height |
 
 **BFS Space:**
 - Balanced tree: O(n/2) ≈ O(n) at bottom level

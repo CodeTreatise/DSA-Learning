@@ -441,9 +441,9 @@ print(split_array([7, 2, 5, 10, 8], 2))  # 18
 
 | Problem | Binary Search | Verification | Total |
 |---------|--------------|--------------|-------|
-| Koko Eating Bananas | O(log M) | O(n) | O(n log M) |
-| Ship Packages | O(log S) | O(n) | O(n log S) |
-| Split Array | O(log S) | O(n) | O(n log S) |
+| Koko Eating Bananas |" O(log M) "|" O(n) "|" O(n log M) "|
+| Ship Packages |" O(log S) "|" O(n) "|" O(n log S) "|
+| Split Array |" O(log S) "|" O(n) "|" O(n log S) "|
 
 Where M = max element, S = sum of elements, n = array length
 

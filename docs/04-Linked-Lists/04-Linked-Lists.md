@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /04-Linked-Lists
+---
+
 # 04 - Linked Lists
 
 > Dynamic data structure with non-contiguous memory allocation
@@ -186,14 +192,14 @@ flowchart LR
 
 | Operation | Array | Singly LL | Doubly LL |
 |-----------|-------|-----------|-----------|
-| Access | O(1) | O(n) | O(n) |
-| Search | O(n) | O(n) | O(n) |
-| Insert (beginning) | O(n) | O(1) | O(1) |
-| Insert (end) | O(1)* | O(n) | O(1) |
-| Insert (middle) | O(n) | O(n) | O(n) |
-| Delete (beginning) | O(n) | O(1) | O(1) |
-| Delete (end) | O(1) | O(n) | O(1) |
-| Delete (middle) | O(n) | O(n) | O(n) |
+| Access |" O(1) "|" O(n) "|" O(n) "|
+| Search |" O(n) "|" O(n) "|" O(n) "|
+| Insert (beginning) |" O(n) "|" O(1) "|" O(1) "|
+| Insert (end) |" O(1)* "|" O(n) "|" O(1) "|
+| Insert (middle) |" O(n) "|" O(n) "|" O(n) "|
+| Delete (beginning) |" O(n) "|" O(1) "|" O(1) "|
+| Delete (end) |" O(1) "|" O(n) "|" O(1) "|
+| Delete (middle) |" O(n) "|" O(n) "|" O(n) "|
 
 *with dynamic array
 

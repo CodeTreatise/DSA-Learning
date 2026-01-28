@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /03-Sorting-Searching
+---
+
 # 03 - Sorting & Searching
 
 > Essential algorithms for organizing and finding data
@@ -109,16 +115,16 @@ flowchart LR
 
 | Algorithm | Time (Best) | Time (Avg) | Time (Worst) | Space | Stable |
 |-----------|-------------|------------|--------------|-------|--------|
-| Bubble | O(n) | O(n²) | O(n²) | O(1) | Yes |
-| Selection | O(n²) | O(n²) | O(n²) | O(1) | No |
-| Insertion | O(n) | O(n²) | O(n²) | O(1) | Yes |
-| Merge | O(n log n) | O(n log n) | O(n log n) | O(n) | Yes |
-| Quick | O(n log n) | O(n log n) | O(n²) | O(log n) | No |
-| Heap | O(n log n) | O(n log n) | O(n log n) | O(1) | No |
-| Counting | O(n + k) | O(n + k) | O(n + k) | O(k) | Yes |
-| Radix | O(nk) | O(nk) | O(nk) | O(n + k) | Yes |
-| Timsort | O(n) | O(n log n) | O(n log n) | O(n) | Yes |
-| Shell | O(n log n) | O(n(log n)²) | O(n(log n)²) | O(1) | No |
+| Bubble |" O(n) "|" O(n²) "|" O(n²) "|" O(1) "| Yes |
+| Selection |" O(n²) "|" O(n²) "|" O(n²) "|" O(1) "| No |
+| Insertion |" O(n) "|" O(n²) "|" O(n²) "|" O(1) "| Yes |
+| Merge |" O(n log n) "|" O(n log n) "|" O(n log n) "|" O(n) "| Yes |
+| Quick |" O(n log n) "|" O(n log n) "|" O(n²) "|" O(log n) "| No |
+| Heap |" O(n log n) "|" O(n log n) "|" O(n log n) "|" O(1) "| No |
+| Counting |" O(n + k) "|" O(n + k) "|" O(n + k) "|" O(k) "| Yes |
+| Radix |" O(nk) "|" O(nk) "|" O(nk) "|" O(n + k) "| Yes |
+| Timsort |" O(n) "|" O(n log n) "|" O(n log n) "|" O(n) "| Yes |
+| Shell |" O(n log n) "|" O(n(log n)²) "|" O(n(log n)²) "|" O(1) "| No |
 
 > **Note:** Python uses Timsort (hybrid of Merge + Insertion Sort). JavaScript V8 uses Timsort for arrays.
 

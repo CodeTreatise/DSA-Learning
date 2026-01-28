@@ -567,10 +567,10 @@ function restoreIpAddresses(s) {
 
 | Problem | Time | Space | Notes |
 |---------|------|-------|-------|
-| Letter Combinations | O(4ⁿ * n) | O(n) | n digits, max 4 letters each |
-| Generate Parentheses | O(4ⁿ/√n) | O(n) | Catalan number |
-| Palindrome Partition | O(n * 2ⁿ) | O(n) | 2ⁿ ways to partition |
-| Restore IP | O(1) | O(1) | Bounded by 3⁴ = 81 |
+| Letter Combinations |" O(4ⁿ * n) "|" O(n) "| n digits, max 4 letters each |
+| Generate Parentheses |" O(4ⁿ/√n) "|" O(n) "| Catalan number |
+| Palindrome Partition |" O(n * 2ⁿ) "|" O(n) "| 2ⁿ ways to partition |
+| Restore IP |" O(1) "|" O(1) "| Bounded by 3⁴ = 81 |
 
 ---
 

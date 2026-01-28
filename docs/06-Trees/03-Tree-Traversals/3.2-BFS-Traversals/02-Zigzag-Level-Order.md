@@ -312,9 +312,9 @@ def zigzag_level_order_dfs(root: Optional[TreeNode]) -> List[List[int]]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Collect + Reverse | O(n) | O(w) | Reverse is O(level_size) |
-| Deque Building | O(n) | O(w) | O(1) insertions |
-| DFS | O(n) | O(h) | Uses recursion stack |
+| Collect + Reverse |" O(n) "|" O(w) "|" Reverse is O(level_size) "|
+| Deque Building |" O(n) "|" O(w) "|" O(1) insertions "|
+| DFS |" O(n) "|" O(h) "| Uses recursion stack |
 
 **Note:** Reversing each level adds overhead but is still O(n) total.
 

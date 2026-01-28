@@ -339,8 +339,8 @@ function reverseBetweenTraditional(head, left, right) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Insert at Front | O(n) | O(1) | Single pass |
-| Traditional Sublist | O(n) | O(1) | Also single pass |
+| Insert at Front |" O(n) "|" O(1) "| Single pass |
+| Traditional Sublist |" O(n) "|" O(1) "| Also single pass |
 
 **Detailed Analysis:**
 - Finding prev_left: O(left) ≤ O(n)

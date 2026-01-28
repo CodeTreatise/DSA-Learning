@@ -73,7 +73,7 @@
 ```mermaid
 flowchart TD
     A["Need O(1) lookup?"] --> B{Data sorted?}
-    B -->|Yes| C{"Need O(1) space?"}
+    B -->|Yes| C{Need O(1) space?}
     C -->|Yes| D[✅ Two Pointers]
     C -->|No| E[Hash Map or Two Pointers]
     B -->|No| F{Need to preserve order?}
@@ -86,11 +86,11 @@ flowchart TD
 
 | Situation | Why | Use Instead |
 |-----------|-----|-------------|
-| Already sorted data | Two pointers is O(1) space | Two Pointers |
+| Already sorted data |" Two pointers is O(1) space "| Two Pointers |
 | Need ordered traversal | Hash map has no order | TreeMap / Sorted structure |
-| Limited memory | O(n) space overhead | In-place techniques |
+| Limited memory |" O(n) space overhead "| In-place techniques |
 | Small fixed alphabet | Array is faster | Fixed-size array |
-| Worst case must be O(1) | Hash collision can be O(n) | Balanced BST |
+|" Worst case must be O(1) "|" Hash collision can be O(n) "| Balanced BST |
 
 ---
 
@@ -123,9 +123,9 @@ flowchart TD
 
 | Operation | Time (Avg) | Time (Worst) | Notes |
 |-----------|------------|--------------|-------|
-| Insert | O(1) | O(n) | Worst case: all collisions |
-| Lookup | O(1) | O(n) | Amortized O(1) in practice |
-| Delete | O(1) | O(n) | Same as lookup |
+| Insert |" O(1) "|" O(n) "| Worst case: all collisions |
+| Lookup |" O(1) "|" O(n) "|" Amortized O(1) in practice "|
+| Delete |" O(1) "|" O(n) "| Same as lookup |
 
 ### Common Patterns
 
@@ -521,31 +521,31 @@ print(is_anagram("rat", "car"))          # False
 
 | Pattern | Time | Notes |
 |---------|------|-------|
-| Two Sum | O(n) | One pass, O(1) per lookup |
-| Frequency Count | O(n) | One pass to count |
-| Group Anagrams | O(n * k log k) or O(n * k) | Depends on key generation |
-| Contains Duplicate | O(n) | One pass |
-| First Unique | O(n) | Two passes |
+| Two Sum |" O(n) "|" One pass, O(1) per lookup "|
+| Frequency Count |" O(n) "| One pass to count |
+| Group Anagrams |" O(n * k log k) or O(n * k) "| Depends on key generation |
+| Contains Duplicate |" O(n) "| One pass |
+| First Unique |" O(n) "| Two passes |
 
 ### Space Complexity
 
 | Pattern | Space | Notes |
 |---------|-------|-------|
-| Two Sum | O(n) | Store all elements |
-| Frequency Count | O(n) or O(k) | k = unique elements |
-| Group Anagrams | O(n * k) | Store all strings |
-| Contains Duplicate | O(n) | Worst: all unique |
-| Fixed alphabet | O(1) | Array of 26 or 256 |
+| Two Sum |" O(n) "| Store all elements |
+| Frequency Count |" O(n) or O(k) "| k = unique elements |
+| Group Anagrams |" O(n * k) "| Store all strings |
+| Contains Duplicate |" O(n) "| Worst: all unique |
+| Fixed alphabet |" O(1) "| Array of 26 or 256 |
 
 ### Hash Map vs Alternatives
 
 | Approach | Time | Space | When to Use |
 |----------|------|-------|-------------|
-| Brute force | O(n²) | O(1) | Never (too slow) |
-| **Hash Map** | O(n) | O(n) | Default choice |
-| Sorting | O(n log n) | O(1) | When space matters |
-| Two Pointers | O(n) | O(1) | Already sorted |
-| Fixed Array | O(n) | O(1) | Small fixed alphabet |
+| Brute force |" O(n²) "|" O(1) "| Never (too slow) |
+| **Hash Map** |" O(n) "|" O(n) "| Default choice |
+| Sorting |" O(n log n) "|" O(1) "| When space matters |
+| Two Pointers |" O(n) "|" O(1) "| Already sorted |
+| Fixed Array |" O(n) "|" O(1) "| Small fixed alphabet |
 
 ---
 
@@ -715,9 +715,9 @@ for i, num in enumerate(nums):
 
 | Question | Response |
 |----------|----------|
-| "What's the space complexity?" | "O(n) in the worst case when all elements are unique." |
-| "What about hash collisions?" | "Average O(1), worst O(n). Modern hash maps handle this well." |
-| "Can you do it in O(1) space?" | "If the array is sorted, I can use two pointers. Or if there's a fixed small alphabet, I can use a fixed-size array." |
+| "What's the space complexity?" |" "O(n) in the worst case when all elements are unique." "|
+| "What about hash collisions?" |" "Average O(1), worst O(n). Modern hash maps handle this well." "|
+|" "Can you do it in O(1) space?" "| "If the array is sorted, I can use two pointers. Or if there's a fixed small alphabet, I can use a fixed-size array." |
 
 </details>
 

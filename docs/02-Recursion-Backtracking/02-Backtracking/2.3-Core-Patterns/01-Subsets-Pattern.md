@@ -410,10 +410,10 @@ function subsetsWithDup(nums) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Backtracking | O(n * 2ⁿ) | O(n) stack | Most common |
-| Iterative/Cascading | O(n * 2ⁿ) | O(1) extra | Simple |
-| Bit Manipulation | O(n * 2ⁿ) | O(1) extra | Clever |
-| With Duplicates | O(n * 2ⁿ) | O(n) stack | Same worst case |
+| Backtracking |" O(n * 2ⁿ) "|" O(n) stack "| Most common |
+| Iterative/Cascading |" O(n * 2ⁿ) "|" O(1) extra "| Simple |
+| Bit Manipulation |" O(n * 2ⁿ) "|" O(1) extra "| Clever |
+| With Duplicates |" O(n * 2ⁿ) "|" O(n) stack "| Same worst case |
 
 **Why O(n * 2ⁿ)?**
 - 2ⁿ subsets total

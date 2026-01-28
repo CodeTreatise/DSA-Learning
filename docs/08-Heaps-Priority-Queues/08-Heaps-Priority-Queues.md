@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /08-Heaps-Priority-Queues
+---
+
 # 08 - Heaps & Priority Queues
 
 > Efficient data structure for finding min/max elements
@@ -107,9 +113,9 @@ flowchart LR
 | Feature | Queue | Priority Queue |
 |---------|-------|----------------|
 | Order | FIFO | By priority |
-| Insert | O(1) | O(log n) |
-| Extract | O(1) | O(log n) |
-| Peek | O(1) | O(1) |
+| Insert |" O(1) "|" O(log n) "|
+| Extract |" O(1) "|" O(log n) "|
+| Peek |" O(1) "|" O(1) "|
 
 ### 4.3 Custom Priority
 - [ ] Using tuples: (priority, value)
@@ -244,10 +250,10 @@ flowchart LR
 
 | Operation | Heap | Sorted Array | BST |
 |-----------|------|--------------|-----|
-| Find min/max | O(1) | O(1) | O(log n) |
-| Insert | O(log n) | O(n) | O(log n) |
-| Delete min/max | O(log n) | O(1) or O(n) | O(log n) |
-| Search | O(n) | O(log n) | O(log n) |
+| Find min/max |" O(1) "|" O(1) "|" O(log n) "|
+| Insert |" O(log n) "|" O(n) "|" O(log n) "|
+| Delete min/max |" O(log n) "|" O(1) or O(n) "|" O(log n) "|
+| Search |" O(n) "|" O(log n) "|" O(log n) "|
 
 ---
 
@@ -314,10 +320,10 @@ flowchart LR
 ### 9.5 Heap vs Other Approaches
 | Need | Best Approach |
 |------|---------------|
-| Full sorted array | Sorting O(n log n) |
-| Only K elements | Heap O(n log k) |
+| Full sorted array |" Sorting O(n log n) "|
+| Only K elements |" Heap O(n log k) "|
 | Stream of data | Heap |
-| Single min/max | Linear scan O(n) |
+| Single min/max |" Linear scan O(n) "|
 
 ---
 

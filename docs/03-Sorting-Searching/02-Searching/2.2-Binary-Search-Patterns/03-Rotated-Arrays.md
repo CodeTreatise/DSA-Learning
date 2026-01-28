@@ -375,10 +375,10 @@ print(find_rotation_count([1, 2, 3, 4, 5]))  # 0 (not rotated)
 
 | Problem | Time | Space | Notes |
 |---------|------|-------|-------|
-| Find Minimum | O(log n) | O(1) | No duplicates |
-| Find Min with Dups | O(n) worst | O(1) | Falls back to linear |
-| Search Element | O(log n) | O(1) | No duplicates |
-| Search with Dups | O(n) worst | O(1) | Falls back to linear |
+| Find Minimum |" O(log n) "|" O(1) "| No duplicates |
+| Find Min with Dups |" O(n) worst "|" O(1) "| Falls back to linear |
+| Search Element |" O(log n) "|" O(1) "| No duplicates |
+| Search with Dups |" O(n) worst "|" O(1) "| Falls back to linear |
 
 **Why O(n) worst case with duplicates?**
 - When `nums[left] == nums[mid] == nums[right]`

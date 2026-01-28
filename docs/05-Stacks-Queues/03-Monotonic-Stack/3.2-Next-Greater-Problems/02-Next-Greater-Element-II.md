@@ -309,8 +309,8 @@ def next_greater_elements_doubled(nums: list[int]) -> list[int]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Modulo iteration | O(n) | O(n) | 2n iterations, but each element processed 2x max |
-| Doubled array | O(n) | O(n) | Extra array creation |
+| Modulo iteration |" O(n) "|" O(n) "| 2n iterations, but each element processed 2x max |
+| Doubled array |" O(n) "|" O(n) "| Extra array creation |
 
 **Why still O(n)?**
 - We iterate 2n times

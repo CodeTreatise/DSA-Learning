@@ -52,7 +52,7 @@ When you see "detect cycle in linked list" → Fast & Slow Pointer is the optima
 |----------|---------|-------------|
 | Need to find WHERE cycle starts | This only detects existence | Floyd's algorithm phase 2 |
 | Need to find cycle length | Requires additional logic | Extend after detection |
-| Hash-based detection acceptable | Simpler but O(n) space | HashSet approach |
+| Hash-based detection acceptable |" Simpler but O(n) space "| HashSet approach |
 | Tree/graph structures | Multiple paths possible | DFS with visited set |
 
 ---
@@ -264,9 +264,9 @@ function hasCycleHashSet(head) {
 
 | Case | Time | Space | Notes |
 |------|------|-------|-------|
-| No cycle | O(n) | O(1) | Fast traverses entire list |
-| Cycle | O(n) | O(1) | At most 2 passes through cycle |
-| Empty/Single | O(1) | O(1) | Early return |
+| No cycle |" O(n) "|" O(1) "| Fast traverses entire list |
+| Cycle |" O(n) "|" O(1) "| At most 2 passes through cycle |
+| Empty/Single |" O(1) "|" O(1) "| Early return |
 
 **Detailed Time Analysis:**
 - Let `n` = total nodes, `k` = cycle length
@@ -278,7 +278,7 @@ function hasCycleHashSet(head) {
 
 | Case | Time | Space | Notes |
 |------|------|-------|-------|
-| All cases | O(n) | O(n) | Stores all visited nodes |
+| All cases |" O(n) "|" O(n) "| Stores all visited nodes |
 
 ---
 

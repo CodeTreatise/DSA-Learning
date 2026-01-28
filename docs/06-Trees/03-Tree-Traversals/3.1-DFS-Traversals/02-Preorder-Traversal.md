@@ -286,9 +286,9 @@ def preorder_morris(root: Optional[TreeNode]) -> List[int]:
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Recursive | O(n) | O(h) | h = tree height |
-| Iterative | O(n) | O(h) | Stack size |
-| Morris | O(n) | O(1) | Thread-based |
+| Recursive |" O(n) "|" O(h) "| h = tree height |
+| Iterative |" O(n) "|" O(h) "| Stack size |
+| Morris |" O(n) "|" O(1) "| Thread-based |
 
 ---
 

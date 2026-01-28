@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /07-Binary-Search-Trees
+---
+
 # 07 - Binary Search Trees (BST)
 
 > Ordered binary tree for efficient searching and sorting
@@ -34,7 +40,7 @@ flowchart LR
 | Feature | Binary Tree | BST |
 |---------|------------|-----|
 | Order | No order | Left < Root < Right |
-| Search | O(n) | O(log n) avg |
+| Search |" O(n) "|" O(log n) avg "|
 | Use case | General | Searching, sorting |
 
 ---
@@ -171,9 +177,9 @@ flowchart LR
 ### 5.4 Comparison
 | Tree | Balanced | Insert | Delete | Search | Use Case |
 |------|----------|--------|--------|--------|----------|
-| BST | No | O(n) | O(n) | O(n) | Simple cases |
-| AVL | Yes | O(log n) | O(log n) | O(log n) | More reads |
-| Red-Black | Yes | O(log n) | O(log n) | O(log n) | More writes |
+| BST | No |" O(n) "|" O(n) "|" O(n) "| Simple cases |
+| AVL | Yes |" O(log n) "|" O(log n) "|" O(log n) "| More reads |
+| Red-Black | Yes |" O(log n) "|" O(log n) "|" O(log n) "| More writes |
 
 ---
 
@@ -247,7 +253,7 @@ flowchart LR
 ### 7.4 BST vs Hash Map
 | Use BST when... | Use Hash Map when... |
 |-----------------|----------------------|
-| Need sorted order | Just need O(1) lookup |
+| Need sorted order |" Just need O(1) lookup "|
 | Range queries | Exact match only |
 | Floor/ceiling needed | No order needed |
 | Min/max frequently | No min/max needed |

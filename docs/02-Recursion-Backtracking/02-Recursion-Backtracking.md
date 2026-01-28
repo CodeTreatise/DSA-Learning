@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+slug: /02-Recursion-Backtracking
+---
+
 # 02 - Recursion & Backtracking
 
 > The art of solving problems by breaking them into smaller subproblems

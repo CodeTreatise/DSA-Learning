@@ -359,9 +359,9 @@ function binarySearchIterative(arr, target) {
 
 | Version | Time | Space | Notes |
 |---------|------|-------|-------|
-| Naive | O(n) | O(1) | n multiplications |
-| Recursive | O(log n) | O(log n) | Halving each step |
-| Iterative | O(log n) | O(1) | Best overall |
+| Naive |" O(n) "|" O(1) "| n multiplications |
+| Recursive |" O(log n) "|" O(log n) "| Halving each step |
+| Iterative |" O(log n) "|" O(1) "| Best overall |
 
 **Why O(log n)?**
 ```
@@ -373,8 +373,8 @@ Takes log₂(n) steps to reduce n to 1
 
 | Version | Time | Space | Notes |
 |---------|------|-------|-------|
-| Recursive | O(log n) | O(log n) | Stack depth |
-| Iterative | O(log n) | O(1) | Preferred |
+| Recursive |" O(log n) "|" O(log n) "| Stack depth |
+| Iterative |" O(log n) "|" O(1) "| Preferred |
 
 ---
 
@@ -384,7 +384,7 @@ Takes log₂(n) steps to reduce n to 1
 
 | Variation | Change | Example |
 |-----------|--------|---------|
-| Matrix power | x is a matrix | Fibonacci in O(log n) |
+| Matrix power | x is a matrix |" Fibonacci in O(log n) "|
 | Modular power | result mod m | Cryptography |
 
 ### Binary Search Variations

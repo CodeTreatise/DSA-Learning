@@ -395,13 +395,13 @@ console.log(lengthOfLongestSubstring("pwwkew"));    // Output: 3
 
 | Case | Time | Space | Notes |
 |------|------|-------|-------|
-| All cases | O(n) | O(1) | Single pass through array |
+| All cases |" O(n) "|" O(1) "| Single pass through array |
 
 ### Variable-Size Window
 
 | Case | Time | Space | Notes |
 |------|------|-------|-------|
-| All cases | O(n) | O(1) or O(k)* | Each element added/removed at most once |
+| All cases |" O(n) "|" O(1) or O(k)* "| Each element added/removed at most once |
 
 *O(k) space when using hash map to track k distinct elements
 
@@ -602,8 +602,8 @@ For **variable window:**
 
 | Question | Response |
 |----------|----------|
-| "What's the time complexity?" | "O(n) - each element is added once and removed at most once" |
-| "Why use a hash map?" | "To track element counts/positions in O(1) time per operation" |
+| "What's the time complexity?" |" "O(n) - each element is added once and removed at most once" "|
+| "Why use a hash map?" |" "To track element counts/positions in O(1) time per operation" "|
 | "What about empty input?" | "Good catch - I'll handle that edge case first" |
 
 </details>

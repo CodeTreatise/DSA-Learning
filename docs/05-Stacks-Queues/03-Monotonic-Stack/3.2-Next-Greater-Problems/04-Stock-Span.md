@@ -318,8 +318,8 @@ class StockSpannerWithIndex {
 
 | Operation | Time | Space | Notes |
 |-----------|------|-------|-------|
-| next() | O(1) amortized | O(1) | Each price pushed once, popped once |
-| n calls | O(n) total | O(n) | Stack size never exceeds n |
+| next() |" O(1) amortized "|" O(1) "| Each price pushed once, popped once |
+| n calls |" O(n) total "|" O(n) "| Stack size never exceeds n |
 
 **Why O(1) amortized for next()?**
 

@@ -340,9 +340,9 @@ function postorderOneStack(root) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Recursive | O(n) | O(h) | h = tree height |
-| Two Stacks | O(n) | O(n) | Extra stack |
-| One Stack | O(n) | O(h) | More complex logic |
+| Recursive |" O(n) "|" O(h) "| h = tree height |
+| Two Stacks |" O(n) "|" O(n) "| Extra stack |
+| One Stack |" O(n) "|" O(h) "| More complex logic |
 
 ---
 

@@ -61,7 +61,7 @@
 
 | Situation | Why | Use Instead |
 |-----------|-----|-------------|
-| Unsorted data (can't sort) | Pointers can't make informed moves | Hash Map O(n) |
+| Unsorted data (can't sort) | Pointers can't make informed moves |" Hash Map O(n) "|
 | Need ALL pairs, not just one | Two pointers finds one match | Nested loops / Backtracking |
 | Non-contiguous elements | Gap between elements matters | Dynamic Programming |
 | Frequent insertions/deletions | Array reindexing is costly | Linked List |
@@ -310,9 +310,9 @@ console.log(`Length: ${length}, Array: ${arr.slice(0, length)}`);
 
 | Case | Time | Space | Notes |
 |------|------|-------|-------|
-| Best | O(1) | O(1) | Target found at initial positions |
-| Average | O(n) | O(1) | Typical traversal |
-| Worst | O(n) | O(1) | Target near middle or not found |
+| Best |" O(1) "|" O(1) "| Target found at initial positions |
+| Average |" O(n) "|" O(1) "| Typical traversal |
+| Worst |" O(n) "|" O(1) "| Target near middle or not found |
 
 **Why O(n) Time:**
 - Each pointer moves at most n times
@@ -328,9 +328,9 @@ console.log(`Length: ${length}, Array: ${arr.slice(0, length)}`);
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Brute Force (nested loops) | O(n²) | O(1) | Check every pair |
-| Hash Map | O(n) | O(n) | Trade space for time |
-| **Two Pointers** | **O(n)** | **O(1)** | Best of both! |
+| Brute Force (nested loops) |" O(n²) "|" O(1) "| Check every pair |
+| Hash Map |" O(n) "|" O(n) "| Trade space for time |
+| **Two Pointers** |" **O(n)** "|" **O(1)** "| Best of both! |
 
 ---
 
@@ -507,9 +507,9 @@ After solving each problem, schedule reviews:
 
 | Interviewer Question | Your Response |
 |---------------------|---------------|
-| "Why not use a hash map?" | "Hash map works but uses O(n) space. Since the array is sorted, Two Pointers achieves O(n) time with O(1) space." |
-| "What if array is unsorted?" | "Two options: sort first for O(n log n), or use Hash Map for O(n) time but O(n) space." |
-| "Can you optimize further?" | "For this problem, O(n) is optimal since we must check each element at least once." |
+| "Why not use a hash map?" |" "Hash map works but uses O(n) space. Since the array is sorted, Two Pointers achieves O(n) time with O(1) space." "|
+| "What if array is unsorted?" |" "Two options: sort first for O(n log n), or use Hash Map for O(n) time but O(n) space." "|
+| "Can you optimize further?" |" "For this problem, O(n) is optimal since we must check each element at least once." "|
 
 ### Step 4: Handle Edge Cases Proactively
 
