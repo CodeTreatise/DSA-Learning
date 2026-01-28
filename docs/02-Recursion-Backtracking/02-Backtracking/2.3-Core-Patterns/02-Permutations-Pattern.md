@@ -114,7 +114,7 @@ Position:  0           1           2           Result
 At position 0: Choose from {1, 2, 3}
 At position 1: Choose from remaining 2 elements
 At position 2: Only 1 element left
-Total: 3 × 2 × 1 = 6 permutations
+Total: 3 * 2 * 1 = 6 permutations
 ```
 
 ### Two Approaches
@@ -138,7 +138,7 @@ def permutations(nums: list[int]) -> list[list[int]]:
     """
     Generate all permutations using a 'used' tracking array.
     
-    Time: O(n × n!), Space: O(n) for used array + recursion
+    Time: O(n * n!), Space: O(n) for used array + recursion
     """
     result = []
     used = [False] * len(nums)
@@ -181,7 +181,7 @@ def permutations_swap(nums: list[int]) -> list[list[int]]:
     Generate all permutations by swapping elements in place.
     
     Key idea: At position i, swap with each element from i to n-1.
-    Time: O(n × n!), Space: O(n) for recursion
+    Time: O(n * n!), Space: O(n) for recursion
     """
     result = []
     
@@ -304,7 +304,7 @@ def permutations_unique(nums: list[int]) -> list[list[int]]:
     Generate unique permutations when nums may have duplicates.
     
     Key: Sort + skip if nums[i] == nums[i-1] and not used[i-1]
-    Time: O(n × n!), Space: O(n)
+    Time: O(n * n!), Space: O(n)
     """
     nums.sort()  # CRITICAL: Sort first!
     result = []
@@ -394,15 +394,15 @@ function permuteUnique(nums) {
 
 | Variant | Time | Space | Notes |
 |---------|------|-------|-------|
-| Basic Permutations | O(n × n!) | O(n) | n! permutations, O(n) to copy each |
-| With Duplicates | O(n × n!) | O(n) | Worst case same, better in practice |
-| Swap Approach | O(n × n!) | O(n) | Slightly less overhead |
+| Basic Permutations | O(n * n!) | O(n) | n! permutations, O(n) to copy each |
+| With Duplicates | O(n * n!) | O(n) | Worst case same, better in practice |
+| Swap Approach | O(n * n!) | O(n) | Slightly less overhead |
 
-**Why O(n × n!)?**
+**Why O(n * n!)?**
 - There are n! permutations
 - Each permutation has n elements
 - Copying each permutation is O(n)
-- Total: O(n × n!)
+- Total: O(n * n!)
 
 **Factorial growth:**
 ```
@@ -552,7 +552,7 @@ nums[start], nums[i] = nums[i], nums[start]  # Restore!
 > "Since there are duplicates, I'll sort first and skip an element if it equals the previous one AND the previous one isn't currently used. This ensures I only use the first occurrence of each duplicate at each level."
 
 **Complexity (30 sec):**
-> "Time is O(n × n!) because there are n! permutations and copying each takes O(n). Space is O(n) for the used array and recursion stack."
+> "Time is O(n * n!) because there are n! permutations and copying each takes O(n). Space is O(n) for the used array and recursion stack."
 
 **Company Focus:**
 

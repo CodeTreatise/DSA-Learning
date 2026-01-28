@@ -124,7 +124,7 @@ def letter_combinations(digits: str) -> list[str]:
     """
     Generate all letter combinations for phone number digits.
     
-    Time: O(4^n × n) where n = len(digits)
+    Time: O(4^n * n) where n = len(digits)
     Space: O(n) for recursion
     """
     if not digits:
@@ -349,7 +349,7 @@ def partition(s: str) -> list[list[str]]:
     """
     Partition string into all possible palindrome substrings.
     
-    Time: O(n × 2^n), Space: O(n)
+    Time: O(n * 2^n), Space: O(n)
     """
     result = []
     
@@ -567,9 +567,9 @@ function restoreIpAddresses(s) {
 
 | Problem | Time | Space | Notes |
 |---------|------|-------|-------|
-| Letter Combinations | O(4ⁿ × n) | O(n) | n digits, max 4 letters each |
+| Letter Combinations | O(4ⁿ * n) | O(n) | n digits, max 4 letters each |
 | Generate Parentheses | O(4ⁿ/√n) | O(n) | Catalan number |
-| Palindrome Partition | O(n × 2ⁿ) | O(n) | 2ⁿ ways to partition |
+| Palindrome Partition | O(n * 2ⁿ) | O(n) | 2ⁿ ways to partition |
 | Restore IP | O(1) | O(1) | Bounded by 3⁴ = 81 |
 
 ---

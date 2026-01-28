@@ -95,7 +95,7 @@ flowchart LR
 - [ ] LSD vs MSD approach
 - [ ] Algorithm understanding
 - [ ] Implementation
-- [ ] Time: O(d × (n + k)) | Space: O(n + k)
+- [ ] Time: O(d * (n + k)) | Space: O(n + k)
 - [ ] Stable: Yes
 
 #### Bucket Sort

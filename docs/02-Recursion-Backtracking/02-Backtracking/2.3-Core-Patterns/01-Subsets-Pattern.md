@@ -144,7 +144,7 @@ def subsets_iterative(nums: list[int]) -> list[list[int]]:
     Generate all subsets using cascading approach.
     
     For each new element, add it to all existing subsets.
-    Time: O(n × 2^n), Space: O(1) extra (output is O(n × 2^n))
+    Time: O(n * 2^n), Space: O(1) extra (output is O(n * 2^n))
     """
     result = [[]]  # Start with empty subset
     
@@ -167,7 +167,7 @@ def subsets(nums: list[int]) -> list[list[int]]:
     Generate all subsets using backtracking.
     
     At each index, we include or exclude the element.
-    Time: O(n × 2^n), Space: O(n) for recursion stack
+    Time: O(n * 2^n), Space: O(n) for recursion stack
     """
     result = []
     
@@ -340,7 +340,7 @@ def subsets_with_dup(nums: list[int]) -> list[list[int]]:
     Generate all unique subsets when nums may have duplicates.
     
     Key insight: Sort + skip duplicates at same level.
-    Time: O(n × 2^n), Space: O(n)
+    Time: O(n * 2^n), Space: O(n)
     """
     nums.sort()  # CRITICAL: Sort first!
     result = []
@@ -410,16 +410,16 @@ function subsetsWithDup(nums) {
 
 | Approach | Time | Space | Notes |
 |----------|------|-------|-------|
-| Backtracking | O(n × 2ⁿ) | O(n) stack | Most common |
-| Iterative/Cascading | O(n × 2ⁿ) | O(1) extra | Simple |
-| Bit Manipulation | O(n × 2ⁿ) | O(1) extra | Clever |
-| With Duplicates | O(n × 2ⁿ) | O(n) stack | Same worst case |
+| Backtracking | O(n * 2ⁿ) | O(n) stack | Most common |
+| Iterative/Cascading | O(n * 2ⁿ) | O(1) extra | Simple |
+| Bit Manipulation | O(n * 2ⁿ) | O(1) extra | Clever |
+| With Duplicates | O(n * 2ⁿ) | O(n) stack | Same worst case |
 
-**Why O(n × 2ⁿ)?**
+**Why O(n * 2ⁿ)?**
 - 2ⁿ subsets total
 - Each subset can be up to size n
 - Copying each subset is O(n)
-- Total: O(n × 2ⁿ)
+- Total: O(n * 2ⁿ)
 
 **Space (excluding output):**
 - O(n) for recursion stack (max depth = n)
@@ -558,7 +558,7 @@ current.pop()  # Always restore state!
 > "I'll iterate through elements, adding each to my current subset, recursing, then removing it to try the 'exclude' path. Every recursive call represents a valid subset, so I add it to results."
 
 **Complexity (30 sec):**
-> "Time is O(n × 2^n) because there are 2^n subsets and copying each takes O(n). Space is O(n) for the recursion stack."
+> "Time is O(n * 2^n) because there are 2^n subsets and copying each takes O(n). Space is O(n) for the recursion stack."
 
 **For duplicates:**
 > "If there are duplicates, I'll first sort the array, then skip elements that are the same as the previous one at the same recursion level."

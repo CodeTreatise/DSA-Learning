@@ -64,7 +64,7 @@
 ```mermaid
 flowchart TD
     A[Range sum queries?] --> B{Multiple queries?}
-    B -->|No, just one| C[❌ Direct sum O(n)]
+    B -->|No, just one| C["❌ Direct sum O(n)"]
     B -->|Yes, many| D{Array static?}
     D -->|Yes| E[✅ Prefix Sum]
     D -->|No, updates happen| F{Point updates?}
@@ -427,7 +427,7 @@ print(result)  # [0, 2, 5, 5, 3]
 |-----------|------|-------|-------|
 | Build | O(n) | O(n) | Single pass |
 | Query | O(1) | O(1) | Just subtraction |
-| m queries (brute) | O(m×n) | O(1) | Without prefix sum |
+| m queries (brute) | O(m*n) | O(1) | Without prefix sum |
 | m queries (prefix) | O(n + m) | O(n) | With prefix sum |
 
 **Break-even point:** Prefix sum is worth it when queries > 1.
@@ -436,7 +436,7 @@ print(result)  # [0, 2, 5, 5, 3]
 
 | Operation | Time | Space |
 |-----------|------|-------|
-| Build | O(m×n) | O(m×n) |
+| Build | O(m*n) | O(m*n) |
 | Query | O(1) | O(1) |
 
 ### Difference Array
@@ -445,7 +445,7 @@ print(result)  # [0, 2, 5, 5, 3]
 |-----------|------|-------|
 | Each update | O(1) | Just two operations |
 | Final build | O(n) | Once at the end |
-| k updates (brute) | O(k×n) | Without difference array |
+| k updates (brute) | O(k*n) | Without difference array |
 | k updates (diff) | O(k + n) | With difference array |
 
 ---

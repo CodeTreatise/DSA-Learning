@@ -125,10 +125,10 @@ If fast meets slow → cycle → not happy
 
 For any number with d digits:
 - Maximum digit is 9
-- Maximum sum of squares = d × 81
+- Maximum sum of squares = d * 81
 
 For a 3-digit number (≤999):
-- Max sum = 3 × 81 = 243
+- Max sum = 3 * 81 = 243
 
 So numbers quickly shrink and stay in a bounded range. Since the range is finite, we MUST eventually:
 1. Reach 1, OR

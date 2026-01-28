@@ -228,7 +228,7 @@ def min_eating_speed(piles: list[int], h: int) -> int:
     """
     Find minimum eating speed to finish in h hours.
     
-    Time: O(n × log(max_pile))
+    Time: O(n * log(max_pile))
     Space: O(1)
     """
     def can_finish(speed: int) -> bool:
@@ -307,7 +307,7 @@ def ship_within_days(weights: list[int], days: int) -> int:
     """
     Find minimum ship capacity to ship all packages in days days.
     
-    Time: O(n × log(sum(weights)))
+    Time: O(n * log(sum(weights)))
     Space: O(1)
     """
     def can_ship(capacity: int) -> bool:
@@ -401,7 +401,7 @@ def split_array(nums: list[int], m: int) -> int:
     """
     Minimize the largest sum when splitting into m parts.
     
-    Time: O(n × log(sum(nums)))
+    Time: O(n * log(sum(nums)))
     Space: O(1)
     """
     def can_split(max_sum: int) -> bool:

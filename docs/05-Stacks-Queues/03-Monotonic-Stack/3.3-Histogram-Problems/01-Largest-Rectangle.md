@@ -51,7 +51,7 @@ For each bar, we need:
 - **Left boundary:** First bar to the left that is shorter (Previous Smaller Element)
 - **Right boundary:** First bar to the right that is shorter (Next Smaller Element)
 - **Width:** right_boundary - left_boundary - 1
-- **Area:** height × width
+- **Area:** height * width
 
 **This is a "double monotonic stack" problem:**
 1. Find previous smaller element for each bar
@@ -119,13 +119,13 @@ For bar at index 2 (height=5):
 - Previous smaller: index 1 (height=1)
 - Next smaller: index 4 (height=2)
 - Width: 4 - 1 - 1 = 2 (indices 2 and 3)
-- Area: 5 × 2 = 10
+- Area: 5 * 2 = 10
 
 For bar at index 3 (height=6):
 - Previous smaller: index 2 (height=5)
 - Next smaller: index 4 (height=2)
 - Width: 4 - 2 - 1 = 1
-- Area: 6 × 1 = 6
+- Area: 6 * 1 = 6
 ```
 
 ### Approach 1: Two Pass (Left and Right Arrays)
@@ -142,14 +142,14 @@ right:       [1, 6, 4, 4, 6, 6]   (6 = n, meaning "no smaller to right")
 Step 3: Calculate areas
 For each i:
   width = right[i] - left[i] - 1
-  area = heights[i] × width
+  area = heights[i] * width
 
-i=0: width = 1-(-1)-1 = 1, area = 2×1 = 2
-i=1: width = 6-(-1)-1 = 6, area = 1×6 = 6
-i=2: width = 4-1-1 = 2, area = 5×2 = 10  ← Maximum!
-i=3: width = 4-2-1 = 1, area = 6×1 = 6
-i=4: width = 6-1-1 = 4, area = 2×4 = 8
-i=5: width = 6-4-1 = 1, area = 3×1 = 3
+i=0: width = 1-(-1)-1 = 1, area = 2*1 = 2
+i=1: width = 6-(-1)-1 = 6, area = 1*6 = 6
+i=2: width = 4-1-1 = 2, area = 5*2 = 10  ← Maximum!
+i=3: width = 4-2-1 = 1, area = 6*1 = 6
+i=4: width = 6-1-1 = 4, area = 2*4 = 8
+i=5: width = 6-4-1 = 1, area = 3*1 = 3
 
 Maximum: 10
 ```
@@ -173,7 +173,7 @@ i=1: height=1
      1 < heights[0]=2, pop 0
      Popped index=0, height=2
      Width: Stack empty → width = i = 1
-     Area = 2 × 1 = 2
+     Area = 2 * 1 = 2
      max_area = 2
      Push 1
      Stack: [1]

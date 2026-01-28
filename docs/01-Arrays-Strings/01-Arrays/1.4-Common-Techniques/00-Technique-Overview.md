@@ -26,7 +26,7 @@ flowchart TD
     B -->|Range sum queries| M{Multiple queries?}
     M -->|Yes, static array| N[✅ Prefix Sum]
     M -->|Yes, with updates| O[Fenwick/Segment Tree]
-    M -->|No, single query| P[Direct sum O(n)]
+    M -->|No, single query| P["Direct sum O(n)"]
     
     B -->|Maximum/minimum subarray| Q{Contains negatives?}
     Q -->|Yes, contiguous| R[✅ Kadane's Algorithm]

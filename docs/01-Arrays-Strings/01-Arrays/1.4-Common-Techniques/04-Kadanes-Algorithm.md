@@ -94,7 +94,7 @@ flowchart TD
 - [Basic DP concept](#) - optimal substructure
 
 **After mastering this:**
-- [Maximum Product Subarray](./04-Kadanes-Algorithm.md#variations) - handle negatives × negatives
+- [Maximum Product Subarray](./04-Kadanes-Algorithm.md#variations) - handle negatives * negatives
 - [Circular Array](./04-Kadanes-Algorithm.md#circular-variant) - wrap-around case
 - [2D Kadane's](#) - maximum sum rectangle
 
@@ -291,7 +291,7 @@ def max_product_subarray(arr: list[int]) -> int:
     Find maximum product of any contiguous subarray.
     
     Key insight: Track both max AND min because
-    negative × negative = positive (min can become max!)
+    negative * negative = positive (min can become max!)
     
     Time: O(n), Space: O(1)
     """
@@ -299,7 +299,7 @@ def max_product_subarray(arr: list[int]) -> int:
         return 0
     
     max_prod = arr[0]
-    min_prod = arr[0]  # Track min for negative × negative case
+    min_prod = arr[0]  # Track min for negative * negative case
     result = arr[0]
     
     for i in range(1, len(arr)):
@@ -319,16 +319,16 @@ def max_product_subarray(arr: list[int]) -> int:
 
 
 # Example usage
-print(max_product_subarray([2, 3, -2, 4]))     # 6 (2×3)
+print(max_product_subarray([2, 3, -2, 4]))     # 6 (2*3)
 print(max_product_subarray([-2, 0, -1]))       # 0
-print(max_product_subarray([-2, 3, -4]))       # 24 (-2×3×-4)
+print(max_product_subarray([-2, 3, -4]))       # 24 (-2*3*-4)
 ```
 
 **JavaScript:**
 ```javascript
 /**
  * Find maximum product of any contiguous subarray.
- * Track both max and min (negative × negative = positive)
+ * Track both max and min (negative * negative = positive)
  */
 function maxProductSubarray(arr) {
     if (arr.length === 0) return 0;
@@ -502,7 +502,7 @@ max_ending_here = arr[0]
 
 ### 3. **Forgetting to track minimum for product**
 ```python
-# ❌ WRONG: Misses negative × negative = positive
+# ❌ WRONG: Misses negative * negative = positive
 max_prod = max(num, max_prod * num)
 
 # For [-2, -3], returns -2 instead of 6!

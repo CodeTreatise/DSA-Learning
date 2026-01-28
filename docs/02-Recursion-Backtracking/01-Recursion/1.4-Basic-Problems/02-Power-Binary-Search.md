@@ -103,17 +103,17 @@ def pow_naive(x, n):
 **Key insight:** Use the property that x^n = (x^(n/2))^2
 
 ```
-x^8 = x^4 × x^4       (only need to compute x^4 once!)
-x^4 = x^2 × x^2
-x^2 = x × x
+x^8 = x^4 * x^4       (only need to compute x^4 once!)
+x^4 = x^2 * x^2
+x^2 = x * x
 
 So x^8 takes only 3 multiplications, not 8!
 ```
 
 **Handle odd exponents:**
 ```
-x^7 = x × x^6 = x × (x^3)^2
-x^3 = x × x^2 = x × (x^1)^2
+x^7 = x * x^6 = x * (x^3)^2
+x^3 = x * x^2 = x * (x^1)^2
 ```
 
 ### 💻 Code

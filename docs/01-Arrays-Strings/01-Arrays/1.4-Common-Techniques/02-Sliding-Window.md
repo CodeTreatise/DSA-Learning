@@ -12,7 +12,7 @@
   - Fixed-size window
   - Variable-size window (shrinking/expanding)
 
-**Sliding Window** is a technique for performing operations on a specific window (contiguous subset) of an array or string. Instead of recalculating from scratch for each position, we "slide" the window by adding a new element and removing an old one, reducing time complexity from O(n×k) to O(n).
+**Sliding Window** is a technique for performing operations on a specific window (contiguous subset) of an array or string. Instead of recalculating from scratch for each position, we "slide" the window by adding a new element and removing an old one, reducing time complexity from O(n*k) to O(n).
 
 ---
 
@@ -638,7 +638,7 @@ For **variable window:**
 
 ---
 
-> **💡 Key Insight:** Sliding Window transforms O(n×k) to O(n) by reusing computation. Instead of recalculating the entire window, we only add what enters and remove what leaves. The variable window is O(n) because each element enters once and exits at most once—the inner while loop doesn't multiply the complexity.
+> **💡 Key Insight:** Sliding Window transforms O(n*k) to O(n) by reusing computation. Instead of recalculating the entire window, we only add what enters and remove what leaves. The variable window is O(n) because each element enters once and exits at most once—the inner while loop doesn't multiply the complexity.
 
 > **🔗 Related:** [Two Pointers](./01-Two-Pointers.md) | [Prefix Sum](./03-Prefix-Sum.md) | [Monotonic Queue](../.../05-Stacks-Queues/05-Stacks-Queues.md)
 

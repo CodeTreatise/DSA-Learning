@@ -72,8 +72,8 @@
 
 ```mermaid
 flowchart TD
-    A[Need O(1) lookup?] --> B{Data sorted?}
-    B -->|Yes| C{Need O(1) space?}
+    A["Need O(1) lookup?"] --> B{Data sorted?}
+    B -->|Yes| C{"Need O(1) space?"}
     C -->|Yes| D[✅ Two Pointers]
     C -->|No| E[Hash Map or Two Pointers]
     B -->|No| F{Need to preserve order?}
@@ -523,7 +523,7 @@ print(is_anagram("rat", "car"))          # False
 |---------|------|-------|
 | Two Sum | O(n) | One pass, O(1) per lookup |
 | Frequency Count | O(n) | One pass to count |
-| Group Anagrams | O(n × k log k) or O(n × k) | Depends on key generation |
+| Group Anagrams | O(n * k log k) or O(n * k) | Depends on key generation |
 | Contains Duplicate | O(n) | One pass |
 | First Unique | O(n) | Two passes |
 
@@ -533,7 +533,7 @@ print(is_anagram("rat", "car"))          # False
 |---------|-------|-------|
 | Two Sum | O(n) | Store all elements |
 | Frequency Count | O(n) or O(k) | k = unique elements |
-| Group Anagrams | O(n × k) | Store all strings |
+| Group Anagrams | O(n * k) | Store all strings |
 | Contains Duplicate | O(n) | Worst: all unique |
 | Fixed alphabet | O(1) | Array of 26 or 256 |
 

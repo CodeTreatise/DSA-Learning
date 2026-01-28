@@ -80,10 +80,10 @@
 ## 📐 Problem 1: Factorial
 
 ### Problem Statement
-Calculate n! = n × (n-1) × (n-2) × ... × 2 × 1
+Calculate n! = n * (n-1) * (n-2) * ... * 2 * 1
 
 ```
-factorial(5) = 5 × 4 × 3 × 2 × 1 = 120
+factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
 factorial(0) = 1 (by definition)
 ```
 

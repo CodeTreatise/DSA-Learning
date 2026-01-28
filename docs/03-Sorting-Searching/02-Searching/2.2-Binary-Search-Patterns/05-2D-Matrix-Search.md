@@ -23,7 +23,7 @@ Each requires a different approach!
 <summary><strong>Identifying Matrix Search Problems</strong></summary>
 
 **Keywords:**
-- "m × n matrix"
+- "m * n matrix"
 - "sorted matrix"
 - "search for target"
 - "rows/columns are sorted"
