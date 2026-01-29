@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: Overview
+sidebar_label: Recursion & Backtracking
 slug: /02-Recursion-Backtracking
 ---
 

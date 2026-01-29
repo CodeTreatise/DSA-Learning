@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: Overview
+sidebar_label: Heaps & Priority Queues
 slug: /08-Heaps-Priority-Queues
 ---
 

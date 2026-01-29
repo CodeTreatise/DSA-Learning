@@ -154,11 +154,15 @@ add_frontmatter() {
         # Check if frontmatter already exists
         if ! head -1 "$file" | grep -q "^---"; then
             local slug="/$basename"
+            
+            # Generate proper sidebar label from folder name
+            local label=$(echo "$basename" | sed 's/^[0-9]*-//' | sed 's/-/ /g' | sed 's/\b\(.\)/\u\1/g')
+            
             local tmpfile=$(mktemp)
             cat > "$tmpfile" << EOF
 ---
 sidebar_position: 1
-sidebar_label: Overview
+sidebar_label: $label
 slug: $slug
 ---
 

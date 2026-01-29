@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: Overview
+sidebar_label: Sorting & Searching
 slug: /03-Sorting-Searching
 ---
 
