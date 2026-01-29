@@ -59,12 +59,14 @@ const config: Config = {
           'queryString',
         ],
         pwaHead: [
-          { tagName: 'link', rel: 'icon', href: '/img/logo.png' },
+          { tagName: 'link', rel: 'icon', href: '/img/icon-192.png' },
           { tagName: 'link', rel: 'manifest', href: '/manifest.json' },
-          { tagName: 'meta', name: 'theme-color', content: '#25c2a0' },
+          { tagName: 'meta', name: 'theme-color', content: '#2e8555' },
           { tagName: 'meta', name: 'apple-mobile-web-app-capable', content: 'yes' },
-          { tagName: 'meta', name: 'apple-mobile-web-app-status-bar-style', content: '#25c2a0' },
-          { tagName: 'link', rel: 'apple-touch-icon', href: '/img/logo.png' },
+          { tagName: 'meta', name: 'apple-mobile-web-app-status-bar-style', content: '#2e8555' },
+          { tagName: 'link', rel: 'apple-touch-icon', href: '/img/icon-192.png' },
+          { tagName: 'link', rel: 'icon', sizes: '192x192', href: '/img/icon-192.png' },
+          { tagName: 'link', rel: 'icon', sizes: '512x512', href: '/img/icon-512.png' },
         ],
       },
     ],
@@ -77,7 +79,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'DSA Mastery',
+      title: 'DSA Learning',
       logo: {
         alt: 'DSA Logo',
         src: 'img/logo.svg',
