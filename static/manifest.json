@@ -1,0 +1,24 @@
+{
+  "name": "DSA Learning - Master Data Structures & Algorithms",
+  "short_name": "DSA Learning",
+  "description": "Comprehensive DSA curriculum with patterns, problems, and interview prep",
+  "theme_color": "#2e8555",
+  "background_color": "#1b1b1d",
+  "display": "standalone",
+  "scope": "/DSA-Learning/",
+  "start_url": "/DSA-Learning/",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
