@@ -100,7 +100,7 @@ flowchart TD
 **After mastering this:**
 - [Sliding Window](./02-Sliding-Window.md) - extension for subarrays
 - [Fast & Slow Pointers](../../04-Linked-Lists.md) - for linked lists, cycle detection
-- [Three Pointers](./01-Two-Pointers.md#variations) - extension for triplets (3Sum)
+- [Three Pointers](./01-Two-Pointers.md#-variations) - extension for triplets (3Sum)
 - [Binary Search](../../03-Sorting-Searching.md) - similar divide approach
 
 **Combines with:**

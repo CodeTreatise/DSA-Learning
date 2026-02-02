@@ -68,7 +68,7 @@ When you see "detect cycle in linked list" → Fast & Slow Pointer is the optima
 
 **After mastering this:**
 - [Find Cycle Start](./02-Find-Cycle-Start.md) - Phase 2 of Floyd's algorithm
-- [Find Cycle Length](./02-Find-Cycle-Start.md#cycle-length) - Count nodes in cycle
+- [Find Cycle Length](./02-Find-Cycle-Start.md#bonus-find-cycle-length) - Count nodes in cycle
 - [Happy Number](./03-Happy-Number.md) - Apply pattern to number sequences
 
 **Combines with:**

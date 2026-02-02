@@ -79,7 +79,7 @@ For n distinct elements, there are **n!** (n factorial) permutations.
 - [Subsets Pattern](./01-Subsets-Pattern.md) - Simpler include/exclude
 
 **After mastering this:**
-- [Permutations II (duplicates)](#handling-duplicates) - Skip duplicate permutations
+- [Permutations II (duplicates)](#handling-duplicates-permutations-ii) - Skip duplicate permutations
 - [N-Queens](../2.5-Classic-Problems.md) - Permutation + constraints
 - [String Permutations](./04-String-Backtracking.md) - Character arrangements
 

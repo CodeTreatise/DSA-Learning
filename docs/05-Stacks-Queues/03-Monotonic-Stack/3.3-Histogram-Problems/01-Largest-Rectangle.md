@@ -87,7 +87,7 @@ For each bar, we need:
 
 **Before this, you should know:**
 - [Monotonic Stack Concept](../3.1-Monotonic-Stack-Concept.md)
-- [Next Smaller Element](../3.1-Monotonic-Stack-Concept.md#next-smaller-element)
+- [Next Smaller Element](../3.1-Monotonic-Stack-Concept.md#template-next-smaller-element-increasing-stack)
 - Previous Smaller Element
 
 **After mastering this:**

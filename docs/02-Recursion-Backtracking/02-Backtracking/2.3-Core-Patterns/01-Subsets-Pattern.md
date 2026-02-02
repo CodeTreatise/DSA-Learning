@@ -71,9 +71,9 @@ For a set of n elements, there are **2ⁿ subsets** (including empty set and the
 - [Recursion Basics](../../01-Recursion/1.1-Recursion-Basics.md) - Base case and recursion
 
 **After mastering this:**
-- [Subsets II (with duplicates)](#handling-duplicates) - Skip consecutive duplicates
+- [Subsets II (with duplicates)](#handling-duplicates-subsets-ii) - Skip consecutive duplicates
 - [Combinations Pattern](./03-Combinations-Pattern.md) - Fixed-size subsets
-- [Subset Sum problems](#practice-problems) - Constraint on sum
+- [Subset Sum problems](#-practice-problems) - Constraint on sum
 
 **Combines with:**
 - **Bit Manipulation** - Iterative subset generation

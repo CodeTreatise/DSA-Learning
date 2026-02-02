@@ -94,8 +94,8 @@ flowchart TD
 - [Basic DP concept](../.../11-Dynamic-Programming/11-Dynamic-Programming.md) - optimal substructure
 
 **After mastering this:**
-- [Maximum Product Subarray](./04-Kadanes-Algorithm.md#variations) - handle negatives * negatives
-- [Circular Array](./04-Kadanes-Algorithm.md#circular-variant) - wrap-around case
+- [Maximum Product Subarray](./04-Kadanes-Algorithm.md#-variations) - handle negatives * negatives
+- [Circular Array](./04-Kadanes-Algorithm.md#circular-array-variant) - wrap-around case
 - [2D Kadane's](../.../11-Dynamic-Programming/11-Dynamic-Programming.md) - maximum sum rectangle
 
 **Combines with:**
