@@ -28,3 +28,48 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ============================================
+   MERMAID DIAGRAM STYLES
+   Ensure text is readable on colored backgrounds
+   ============================================ */
+
+/* Force dark text on all Mermaid nodes with light fill colors */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+  stroke: #333 !important;
+  stroke-width: 1px !important;
+}
+
+/* Ensure node labels are always readable (dark text) */
+.mermaid .nodeLabel,
+.mermaid .node .label,
+.mermaid .node text,
+.mermaid .cluster-label text {
+  color: #000 !important;
+  fill: #000 !important;
+}
+
+/* Fix for flowchart nodes */
+.mermaid .flowchart-link {
+  stroke: #666 !important;
+}
+
+/* Dark mode specific: keep edges visible */
+[data-theme='dark'] .mermaid .flowchart-link {
+  stroke: #aaa !important;
+}
+
+/* Ensure edge labels are readable in both modes */
+.mermaid .edgeLabel {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  color: #000 !important;
+}
+
+[data-theme='dark'] .mermaid .edgeLabel {
+  background-color: rgba(50, 50, 50, 0.9) !important;
+  color: #fff !important;
+}

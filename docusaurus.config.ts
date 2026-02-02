@@ -120,6 +120,12 @@ const config: Config = {
       ],
       copyright: 'DSA Mastery · Built with Docusaurus',
     },
+    mermaid: {
+      theme: {
+        light: 'neutral',
+        dark: 'neutral',
+      },
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
